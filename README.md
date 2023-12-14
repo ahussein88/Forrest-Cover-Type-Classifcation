@@ -69,11 +69,10 @@ There are 10 outliers in Horizontal_Distance_To_Fire_Points. The normal range is
  
 * Clearly define the key performance metric(s).
   * The key performance metric was to anaylize how accurate the classifer was at predicting the tree cover type.
-* Show/compare results in one table.
-  * 
 * Show one (or few) visualization(s) of results, for example ROC curves.
-  *   
+    ![Screen Shot 2023-12-14 at 2 22 48 PM](https://github.com/ahussein88/Forrest-Cover-Type-Classifcation/assets/123412804/19ee3769-58e6-483b-9a46-502cdd07f419)
 
+These are the comparison of different models including K-NN. 
   
 
 ### Conclusions
@@ -94,6 +93,7 @@ In the future, I'd like to try different types of classifiers and alogrithms and
 * Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
 
 ### Overview of files in repository
+
 
 
 
