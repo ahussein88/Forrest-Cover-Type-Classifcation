@@ -52,17 +52,15 @@ There are 10 outliers in Horizontal_Distance_To_Fire_Points. The normal range is
   * Input: Dataset from train.csv file
   * Output: Reoccuring features that were found
   * Models: The two classifiers that were used were Scikit Decision Tree and K-NN.
-    *  
-  * Loss, Optimizer, other Hyperparameters.
 
 ### Training
 
-* Describe the training: 
-  * How you trained: software and hardware. 
-  * How did training take. 
-  * Training curves (loss vs epoch for test/train).
-  * How did you decide to stop training.
-  * Any difficulties? How did you resolve them?
+* Describe the training: The training model took the features and ran them through the Scikit Decision Tree, K-NN. 
+  * How you trained: software and hardware. Ran the data through Jupyter notebook and importing from Scikit.
+* Training curves (loss vs epoch for test/train).
+  *   ![Screen Shot 2023-12-14 at 3 05 36 PM 1](https://github.com/ahussein88/Forrest-Cover-Type-Classifcation/assets/123412804/e92d9320-0786-4ca3-8f1f-f7cb255607a9)
+  * How did you decide to stop training. When the common features were found among the different tree type.
+  * Any difficulties? How did you resolve them? Run-Time and Syntax error was most common. Run-time was resolved by adjusting the memory usage.
 
 ### Performance Comparison
 
@@ -70,14 +68,17 @@ There are 10 outliers in Horizontal_Distance_To_Fire_Points. The normal range is
 * The decision tree classifier accurately predicted 93.56% of the of the trees correctly.
  
 * Clearly define the key performance metric(s).
+  * The key performance metric was to anaylize how accurate the classifer was at predicting the tree cover type.
 * Show/compare results in one table.
+  * 
 * Show one (or few) visualization(s) of results, for example ROC curves.
+  *   
 
   
 
 ### Conclusions
 
-The 
+It seems the Decision Tree algorithm was able to predict the tree cover most accurately. In fact, the accuracy is a bit higher the K-NN Classifier. 
 
 ### Future Work
 
@@ -94,15 +95,32 @@ In the future, I'd like to try different types of classifiers and alogrithms and
 
 ### Overview of files in repository
 
-...
+
 
 ### Software Setup
 
+This project requires Python 3.6 and the following Python libraries installed:
+
+Python 3.6.6 (Language Used for the project)
+NumPy (For Scientific Computing)
+Pandas (For Data Analysis)
+matplotlib (For Visualization)
+seaborn (For Visualization)
+scikit-learn (ML Library for Python)
+You will also need to have software installed to run and execute a Jupyter Notebook
 
 
 ### Data
 
-..
+This project contains 3 files and 1 folder:
+
+report.ipynb: This is the main file where I have performed my work on the project.
+covtype.data: The forest cover-type dataset. I have loaded this data in the notebook..
+proposal.pdf : My detailed explaination of the project.
+export/ : Folder containing HTML and PDF version file of notebook.
+plots/ : Contains images of all the plots that are displayed in report.ipynb file.
+
+
 ### Training
 
 ..
@@ -113,7 +131,9 @@ In the future, I'd like to try different types of classifiers and alogrithms and
 
 ## Citations
 
-...
+https://www.kaggle.com/c/forest-cover-type-prediction/data
+https://www.youtube.com/watch?v=q5Y3ufgd_tQ&ab_channel=NYCDataScienceAcademy
+
 
 
 
