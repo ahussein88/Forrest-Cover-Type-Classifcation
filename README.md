@@ -85,15 +85,13 @@ In the future, I'd like to try different types of classifiers and alogrithms and
 
 
 ## How to reproduce results
-
-* In this section, provide instructions at least one of the following:
-   * Reproduce your results fully, including training.
-   * Apply this package to other data. For example, how to use the model you trained.
-   * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
+1. import python liberies mentioned in software steup
+2. load the data from 'Forest - cover - type - dataset
+3. Display the data set and remove any outliers
+4. Run through the models
 
 ### Overview of files in repository
-
+*
 
 
 
@@ -123,11 +121,11 @@ plots/ : Contains images of all the plots that are displayed in report.ipynb fil
 
 ### Training
 
-..
+
 
 #### Performance Evaluation
 
-..
+The performance evaluation was conducting running the two models separately and then comparing their results.
 
 ## Citations
 
