@@ -91,9 +91,8 @@ In the future, I'd like to try different types of classifiers and alogrithms and
 4. Run through the models
 
 ### Overview of files in repository
-*
-
-
+This contains all the important and useful information in regards to recreating
+this project.
 
 ### Software Setup
 
@@ -112,16 +111,10 @@ You will also need to have software installed to run and execute a Jupyter Noteb
 
 This project contains 3 files and 1 folder:
 
-report.ipynb: This is the main file where I have performed my work on the project.
-covtype.data: The forest cover-type dataset. I have loaded this data in the notebook..
+report.ipynb: This is the main file where I have performed my work on the project.covtype.data: The forest cover-type dataset. I have loaded this data in the notebook
 proposal.pdf : My detailed explaination of the project.
-export/ : Folder containing HTML and PDF version file of notebook.
-plots/ : Contains images of all the plots that are displayed in report.ipynb file.
-
-
-### Training
-
-
+export: Folder containing HTML and PDF version file of notebook.
+plots: Contains images of all the plots that are displayed in report.ipynb file.
 
 #### Performance Evaluation
 
