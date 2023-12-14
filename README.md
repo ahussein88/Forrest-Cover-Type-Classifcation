@@ -10,24 +10,23 @@
 
 ## Overview
 
-  * **Challenge:**  The dataset contains 15120 observations which contains that ranges from Elevaiton, Slope, and horizontal_distance_to Roadways.
+  * **Challenge:**  The goal of this challenge is to predict the type of tree cover in a sample area strictly based on cartographic variable such as elevation, shadow coverage, distance to nearby landmarks (roads etcetera), soil type, and local topography.
 
-  * **Approach:** In this project, we want to use a variety of algorithms and classifiers to predict the type of tree cover in a sample area within Roosevelt National Forest of Northern Colorado given various other features about the area, including the soil type, the vertical and horizontal distance to hydrology, the elevation, etc. We will use the following algorithms to make our prediction.
+  * **Approach:** For this project, I utilized scikit decision tree and the K-Nearest Neighbor classifers. The reason why I decided to use scikit decision tree was because I wanted to use it to compare it to the K-Nearest Neighbor classifier and see which algorithm/classifier would be more effificent.
 
-  * **Summary of the performance achieved:** K-NN algorithm classified 92.71% of the of the trees correctly. Our decision tree classified 93.56% of the of the trees correctly  
+  * **Summary of the performance achieved:** I iniitaly hypotheized that K-NN would be more efficient but after running the data. K-NN algorithm classifier was accurately predicted 92.71% of the of the trees correctly. Where as the decision tree classified 93.56% of the of the trees correctly.
     
 ## Summary of Workdone: 
-*...
 
 
 ### Data
 
 * Data:
-  * Type: CSV File
-    * Input: The dataset contains 15120 observations for each observation there is a different column 
-    * Input: CSV file of features 
+  * Type: CSV Files
+    * Input: The dataset contained 15120 observations made from different trees that are randomly sorted. The training dataset only contains the cartographic variables.
+    * Output: Create a integer classification for the forest cover type, there was a total of 7 different tree types.
   * Size: 96.64 MB
-  * Instances (Train, Test, Validation Split): ..
+  * Instances (Train, Test, Validation Split): The training set (15120 observations) contains both features and the Cover_Type. The test set contains only the features. You must predict the Cover_Type for every row in the test set (565892 observations).
 
 #### Preprocessing / Clean up
 
@@ -38,38 +37,52 @@ There are 10 outliers in Horizontal_Distance_To_Fire_Points. The normal range is
 
 #### Data Visualization
 
+![Screen Shot 2023-12-14 at 2 06 44 PM 1](https://github.com/ahussein88/Forrest-Cover-Type-Classifcation/assets/123412804/d77d5dfc-34b8-44b7-bc1e-4941bcd1d5de)
+
+![Screen Shot 2023-12-14 at 2 24 33 PM](https://github.com/ahussein88/Forrest-Cover-Type-Classifcation/assets/123412804/5800d9e3-3fbc-4084-922a-796568545fb1)
+
+![Screen Shot 2023-12-14 at 2 25 34 PM](https://github.com/ahussein88/Forrest-Cover-Type-Classifcation/assets/123412804/a4e38d38-f309-40f7-9918-ae3c8064dc27)
+
+
+
 
 ### Problem Formulation
 
-* Define:
-  * Input / Output
-  * Models
-    * Describe the different models you tried and why.
+* Define: Classifer
+  * Input: Dataset from train.csv file
+  * Output: Reoccuring features that were found
+  * Models: The two classifiers that were used were Scikit Decision Tree and K-NN.
+    *  
   * Loss, Optimizer, other Hyperparameters.
 
 ### Training
 
-* Describe the training:
-  * How you trained: software and hardware.
-  * How did training take.
+* Describe the training: 
+  * How you trained: software and hardware. 
+  * How did training take. 
   * Training curves (loss vs epoch for test/train).
   * How did you decide to stop training.
   * Any difficulties? How did you resolve them?
 
 ### Performance Comparison
 
+* K-NN algorithm classifier accurately predicted 92.71% of the of the trees correctly.
+* The decision tree classifier accurately predicted 93.56% of the of the trees correctly.
+ 
 * Clearly define the key performance metric(s).
 * Show/compare results in one table.
 * Show one (or few) visualization(s) of results, for example ROC curves.
 
+  
+
 ### Conclusions
 
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+The 
 
 ### Future Work
 
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
+In the future, I'd like to try different types of classifiers and alogrithms and see how they perform. 
+
 
 ## How to reproduce results
 
@@ -84,7 +97,8 @@ There are 10 outliers in Horizontal_Distance_To_Fire_Points. The normal range is
 ...
 
 ### Software Setup
-...
+
+
 
 ### Data
 
